@@ -1,1 +1,0 @@
-## arquitetura da pista
