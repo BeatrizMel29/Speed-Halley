@@ -1,6 +1,6 @@
 Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. A equipe não deve apagar registros anteriores. Caso o planejamento mude, a alteração deve ser descrita e justificada.
 
----
+
 
 # Semana 1 — 16/09/2026 a 22/09/2026
 
