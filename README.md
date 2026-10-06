@@ -10,11 +10,11 @@
 
 | Integrante | Área principal | Responsabilidades |
 |---|---|---|
-| Micael | Calibração | calibração e operação |
-| Jullya Witoria | Mecânica | Montagem, preparação e obstáculos |
-| Sara Beatriz  | Projeto e documentação | Arquitetura, desenhos, organização da documentação |
-| Beatriz Melquíades | Eletrônica e integração elétrica | Alimentação, sensores e conexões |
-| Rayssa Beatriz | Software e controle | programação, comunicação, integração |
+| Rayssa| Calibração | calibração e operação |
+| Micael| Mecânica | Montagem, preparação e obstáculos |
+| Jullya Witoria | Projeto e documentação | Arquitetura, desenhos, organização da documentação |
+| Sara Beatriz | Eletrônica e integração elétrica | Alimentação, sensores e conexões |
+| Beatriz Melquíades | Software e controle | programação, comunicação, integração |
 
 ---
 
