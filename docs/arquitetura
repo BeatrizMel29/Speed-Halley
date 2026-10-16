@@ -1,2 +1,17 @@
 ## arquitetura
-  
+  Arquitetura do projeto!
+
+Objetivo
+Este documento apresenta a organização geral do projeto Speed-Halley, desenvolvido para a competição de carrinhos.
+
+Organização do sistema
+O projeto envolve o planejamento da estrutura física da pista, a identificação dos componentes eletrônicos necessários e o desenvolvimento dos recursos de software e comunicação.
+
+Estado atual
+A arquitetura geral ainda está em desenvolvimento. A equipe está identificando como os subsistemas serão organizados e integrados.
+
+Próximas etapas
+- Definir a arquitetura geral da pista.
+- Identificar as conexões entre os subsistemas.
+- Elaborar um diagrama geral da arquitetura.
+- Atualizar este documento conforme o projeto avançar.
