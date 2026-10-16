@@ -1,1 +1,28 @@
 ## testes
+Documentação de testes!
+
+1. Objetivo
+Registrar os testes realizados durante o desenvolvimento do projeto, incluindo os procedimentos, resultados e próximas etapas.
+
+2. Testes realizados
+
+2.1. Teste de alimentação do ESP32
+- Procedimento: verificar o funcionamento do ESP32 alimentado em bancada.
+- Resultado: funcionamento normal, conforme registro da equipe.
+
+2.2. Teste individual dos motores
+- Procedimento: verificar o funcionamento de cada motor separadamente.
+- Resultado: ambos os motores funcionaram, conforme registro da equipe.
+
+2.3. Teste de comunicação
+- Procedimento: realizar testes utilizando Wi-Fi, MQTT e Node-RED.
+- Resultado: foram observadas mensagens numéricas no Node-RED. A origem das mensagens e a comunicação completa entre os dispositivos precisam ser confirmadas.
+
+3. Testes pendentes
+- Verificar a comunicação entre os dispositivos de forma integrada.
+- Realizar testes após a montagem dos componentes.
+- Registrar novos resultados e eventuais falhas.
+- Verificar o funcionamento conjunto dos subsistemas.
+
+4. Observações
+Os resultados registrados correspondem aos testes relatados pela equipe. Novos testes deverão ser documentados conforme o projeto avançar, incluindo datas, procedimentos, resultados e dificuldades encontradas.
