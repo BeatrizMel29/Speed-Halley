@@ -29,8 +29,8 @@ Descrever, de forma objetiva, a solução escolhida pela equipe.
 
 Exemplo:
 
-- Cronometragem: ________________;
-- Comunicação enre os microcontroladores: ____________________;
+- Cronometragem: Check-points através de sensores a laser conectados a três ESP3C3;
+- Comunicação enre os microcontroladores: protocolo MQTT através do broker Mosquitto e de um servidor NodeRED;
 - Circuito e sensores: ____________________;
 - Alimentação: ____________________;
 - Automatização: ____________________;
