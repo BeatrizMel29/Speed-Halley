@@ -1,1 +1,23 @@
 ## software
+Documentação de software!
+
+1. Objetivo
+Registrar os programas, as ferramentas e os testes de comunicação utilizados no desenvolvimento do projeto.
+
+2. Tecnologias utilizadas
+- Arduino IDE: ambiente utilizado para desenvolver e enviar códigos ao microcontrolador.
+- ESP32: microcontrolador utilizado nos testes de programação.
+- Wi-Fi: conexão de rede utilizada nos testes de comunicação.
+- MQTT: protocolo utilizado para a troca de mensagens entre dispositivos.
+- Node-RED: ferramenta utilizada para visualizar e acompanhar mensagens recebidas.
+
+3. Estado atual
+A equipe realizou testes de conexão Wi-Fi e desenvolveu códigos para testar a comunicação utilizando MQTT e Node-RED.
+A integração completa dos programas com os demais componentes do projeto ainda está em desenvolvimento.
+
+4. Próximas etapas
+- Revisar e organizar os códigos utilizados.
+- Verificar a comunicação entre o ESP32 e o Node-RED.
+- Testar o envio e o recebimento de mensagens.
+- Registrar os resultados dos testes.
+- Atualizar os códigos conforme as necessidades do projeto.
