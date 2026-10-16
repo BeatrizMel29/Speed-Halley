@@ -1,1 +1,19 @@
 ## mecanica
+Documentação mecânica!
+
+1. Objetivo
+Registrar o planejamento da estrutura física da pista do projeto , desenvolvida para a competição de carrinhos.
+
+2. Estrutura da pista
+A equipe é responsável pelo planejamento da infraestrutura da pista, onde os carrinhos realizarão o percurso da competição.
+A estrutura deverá permitir a passagem dos carrinhos e atender às orientações da organização quanto ao espaço disponível e às características do percurso.
+
+3. Estado atual
+O projeto mecânico ainda está em fase de planejamento. A arquitetura geral da pista e o desenho definitivo do circuito precisam ser definidos.
+
+4. Próximas etapas
+- Definir a estrutura geral da pista.
+- Elaborar o desenho do circuito.
+- Identificar os materiais necessários para a construção.
+- Verificar as dimensões e os requisitos definidos pela organização.
+- Registrar alterações e decisões sobre a estrutura neste documento.
