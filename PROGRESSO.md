@@ -88,15 +88,14 @@ Não foram registrados testes práticos nesta semana devido à ausência dos com
 
 ## Planejado
 
-- Verificar os componentes recebidos.
+- Primeiro contato com RaspberryPi 3.
 - Testar a alimentação do ESP32.
-- Realizar testes individuais dos motores.
 - Iniciar os testes de comunicação.
 
 ## Concluído
 
 - Teste de alimentação do ESP32 em bancada, com funcionamento normal.
-- Teste individual dos motores, com funcionamento observado em ambos.
+- Instalação do sistema operacional, broker MQTT, e servidor NodeRed do Raspberry
 
 ## Não concluído
 
@@ -106,20 +105,18 @@ Não foram registrados testes práticos nesta semana devido à ausência dos com
 
 ## Problemas ou impedimentos
 
-- Dificuldades com os componentes e necessidade de avançar gradualmente nos testes.
+- Ausência dos componentes e necessidade de avançar gradualmente nos testes.
 
 ## Decisões técnicas da semana
 
 Realizar testes individuais antes de avançar para a integração dos componentes
 
 ## Testes realizados
-- Teste de alimentação do ESP32 em bancada.
-- Testes individuais dos dois motores.
+
 
 | Teste | Resultado |
 |---|---|
 | Teste de alimentação do ESP32 em bancada. | deu certo|
-|Testes individuais dos dois motores | deu certo |
 
 ## Próximas ações
 
@@ -137,19 +134,18 @@ Realizar testes individuais antes de avançar para a integração dos componente
 - Registrar os resultados dos testes.
 
 ## Concluído
-
+- Recebimento dos microcontroladores definitivos e soldagem dos ESP32C3
 - Desenvolvimento e utilização de código para testes de comunicação.
 - Registro visual de mensagens numéricas no Node-RED.
 
 ## Não concluído
 
-- Confirmação completa da comunicação entre os dispositivos.
-- Integração dos componentes.
 - Definição definitiva da arquitetura da pista
+- Diagrama elétrico
 
 ## Problemas ou impedimentos
 
-- Dificuldades relacionadas à integração dos componentes e à confirmação do funcionamento conjunto do sistema.
+- Ausência dos sensores.
 
 ## Decisões técnicas da semana
 
@@ -186,7 +182,7 @@ Continuar os testes de comunicação e verificar o funcionamento dos dispositivo
 
 ## Problemas ou impedimentos
 
-- ____________________
+- Comunicação não clara entre os grupos responsáveis pela pista, o que gerou falta de acesso aos componentes (raspberry e roteador) em muitas ocasiões.
 
 ## Decisões técnicas da semana
 
