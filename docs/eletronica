@@ -6,9 +6,9 @@ Registrar os componentes eletrônicos considerados no projeto, os testes realiza
 
 2. Componentes e recursos
 - ESP32: microcontrolador utilizado nos testes de programação e comunicação.
-- Alimentação elétrica: teste de alimentação do ESP32 realizado em bancada, com funcionamento normal.
-- Motores: teste individual realizado, com funcionamento observado em ambos.
 - Comunicação: utilização de Wi-Fi e MQTT nos testes de comunicação com o Node-RED.
+- Raspberry Pi 3.
+- Roteador Wi-Fi.
 
 A disponibilidade e a integração definitiva dos componentes ainda precisam ser confirmadas pela equipe.
 
