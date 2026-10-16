@@ -26,3 +26,113 @@ Registrar os testes realizados durante o desenvolvimento do projeto, incluindo o
 
 4. Observações
 Os resultados registrados correspondem aos testes relatados pela equipe. Novos testes deverão ser documentados conforme o projeto avançar, incluindo datas, procedimentos, resultados e dificuldades encontradas.
+
+
+(Código teste - MQTT)
+
+#include <WiFi.h>
+#include <PubSubClient.h>
+
+const char* WIFI_SSID = "projetoIntegrador";
+const char* WIFI_PASSWORD = "integrador";
+
+const char* MQTT_SERVER = "192.168.0.220";
+const int MQTT_PORT = 1883;
+
+const char* MQTT_TOPIC = "Speed-Halley/teste";
+
+WiFiClient espClient;
+PubSubClient mqttClient(espClient);
+
+void conectarWiFi() {
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.println("Conectando ao Wi-Fi...");
+  }
+
+  Serial.println("Wi-Fi conectado!");
+  Serial.println(WiFi.localIP());
+}
+
+void conectarMQTT() {
+  while (!mqttClient.connected()) {
+    String clientID = "ESP32-C3-";
+    clientID += String(random(0xffff), HEX);
+
+    Serial.println("Conectando ao MQTT...");
+
+    if (mqttClient.connect(clientID.c_str())) {
+      Serial.println("MQTT conectado!");
+    } else {
+      Serial.print("Falha na conexão MQTT: ");
+      Serial.println(mqttClient.state());
+      delay(2000);
+    }
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+
+  randomSeed(micros());
+
+  conectarWiFi();
+
+  mqttClient.setServer(MQTT_SERVER, MQTT_PORT);
+}
+
+void loop() {
+  if (WiFi.status() != WL_CONNECTED) {
+    conectarWiFi();
+  }
+
+  if (!mqttClient.connected()) {
+    conectarMQTT();
+  }
+
+  mqttClient.loop();
+
+  int numero = random(0, 101);
+
+  char mensagem[12];
+  snprintf(mensagem, sizeof(mensagem), "%d", numero);
+
+  mqttClient.publish(MQTT_TOPIC, mensagem);
+
+  Serial.print("Numero enviado: ");
+  Serial.println(numero);
+
+  delay(2000);
+}
+
+
+Código Wi-fi
+
+#include <WiFi.h>
+
+const char* rede = "projetoIntegrador";
+const char* senha = "integrador";
+
+void setup() {
+  Serial.begin(115200);
+
+  WiFi.begin(rede, senha);
+
+  Serial.print("Conectando");
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+
+  Serial.println();
+  Serial.println("conectado");
+
+  Serial.print("IP: ");
+  Serial.println(WiFi.localIP());
+}
+
+void loop() {
+}
