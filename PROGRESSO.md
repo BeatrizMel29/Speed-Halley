@@ -1,4 +1,4 @@
-Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. A equipe não deve apagar registros anteriores. Caso o planejamento mude, a alteração deve ser descrita e justificada.
+                                -Este arquivo deve registrar, de forma objetiva, o andamento semanal do projeto. A equipe não deve apagar registros anteriores. Caso o planejamento mude, a alteração deve ser descrita e justificada.
 
 
 
@@ -46,28 +46,32 @@ Pesquisar melhores componentes
 
 ## Planejado
 
-- ____________________
-- ____________________
-- ____________________
+- Revisar os requisitos da competição.
+- Organizar as tarefas da equipe.
+- Preparar os primeiros testes eletrônicos e de comunicação
 
 ## Concluído
 
-- ____________________
-- ____________________
+- Preparação das atividades para o início dos testes após a chegada dos componentes.
 
 ## Não concluído
 
-- ____________________
+- Montagem prática dos componentes.
+- Definição da arquitetura da pista.
+- Elaboração do diagrama elétrico.
+- Realização dos testes práticos planejados.
+
 
 ## Problemas ou impedimentos
 
-- ____________________
+ - Os componentes ainda não estavam disponíveis, impedindo o avanço esperado na montagem e nos testes.
 
 ## Decisões técnicas da semana
 
-- ____________________
+- Adiar os testes que dependiam dos componentes até que os materiais fossem disponibilizados.
 
 ## Testes realizados
+Não foram registrados testes práticos nesta semana devido à ausência dos componentes.
 
 | Teste | Resultado |
 |---|---|
