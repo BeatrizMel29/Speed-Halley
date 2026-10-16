@@ -1,1 +1,23 @@
 ## circuito
+Documentação eletrônica!
+
+1. Objetivo
+Registrar os componentes eletrônicos considerados no projeto, os testes realizados e as etapas necessárias para a integração do sistema.
+
+2. Componentes e recursos
+- ESP32: microcontrolador utilizado nos testes de programação e comunicação.
+- Alimentação elétrica: teste de alimentação do ESP32 realizado em bancada, com funcionamento normal.
+- Motores: teste individual realizado, com funcionamento observado em ambos.
+- Comunicação: utilização de Wi-Fi e MQTT nos testes de comunicação com o Node-RED.
+
+A disponibilidade e a integração definitiva dos componentes ainda precisam ser confirmadas pela equipe.
+
+3. Estado atual
+A parte eletrônica encontra-se em desenvolvimento. A equipe realizou testes individuais, mas ainda precisa avançar na montagem e na integração dos componentes.
+
+4. Próximas etapas
+- Identificar os componentes disponíveis para o projeto.
+- Elaborar o diagrama elétrico.
+- Definir as conexões entre os componentes.
+- Realizar testes de integração.
+- Registrar os resultados e as alterações neste documento.
