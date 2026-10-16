@@ -10,13 +10,9 @@ Registrar os testes realizados durante o desenvolvimento do projeto, incluindo o
 - Procedimento: verificar o funcionamento do ESP32 alimentado em bancada.
 - Resultado: funcionamento normal, conforme registro da equipe.
 
-2.2. Teste individual dos motores
-- Procedimento: verificar o funcionamento de cada motor separadamente.
-- Resultado: ambos os motores funcionaram, conforme registro da equipe.
-
-2.3. Teste de comunicação
-- Procedimento: realizar testes utilizando Wi-Fi, MQTT e Node-RED.
-- Resultado: foram observadas mensagens numéricas no Node-RED. A origem das mensagens e a comunicação completa entre os dispositivos precisam ser confirmadas.
+2.2. Teste de comunicação
+- Procedimento: realizar testes utilizando Wi-Fi, MQTT e Node-RED. Sem os sensores, o código gerou numeros aleatórios para envio ao nó MQTT.
+- Resultado: foram observadas mensagens numéricas no Node-RED. 
 
 3. Testes pendentes
 - Verificar a comunicação entre os dispositivos de forma integrada.
@@ -36,7 +32,7 @@ Os resultados registrados correspondem aos testes relatados pela equipe. Novos t
 const char* WIFI_SSID = "projetoIntegrador";
 const char* WIFI_PASSWORD = "integrador";
 
-const char* MQTT_SERVER = "192.168.0.220";
+const char* MQTT_SERVER = "192.168.0.221";
 const int MQTT_PORT = 1883;
 
 const char* MQTT_TOPIC = "Speed-Halley/teste";
