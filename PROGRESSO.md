@@ -88,29 +88,38 @@ Não foram registrados testes práticos nesta semana devido à ausência dos com
 
 ## Planejado
 
-- ____________________
+- Verificar os componentes recebidos.
+- Testar a alimentação do ESP32.
+- Realizar testes individuais dos motores.
+- Iniciar os testes de comunicação.
 
 ## Concluído
 
-- ____________________
+- Teste de alimentação do ESP32 em bancada, com funcionamento normal.
+- Teste individual dos motores, com funcionamento observado em ambos.
 
 ## Não concluído
 
-- ____________________
+- Definição completa da arquitetura da pista.
+- Elaboração do diagrama elétrico.
+- Integração dos componentes no sistema.
 
 ## Problemas ou impedimentos
 
-- ____________________
+- Dificuldades com os componentes e necessidade de avançar gradualmente nos testes.
 
 ## Decisões técnicas da semana
 
-- ____________________
+Realizar testes individuais antes de avançar para a integração dos componentes
 
 ## Testes realizados
+- Teste de alimentação do ESP32 em bancada.
+- Testes individuais dos dois motores.
 
 | Teste | Resultado |
 |---|---|
-| ____________________ | ____________________ |
+| Teste de alimentação do ESP32 em bancada. | deu certo|
+|Testes individuais dos dois motores | deu certo |
 
 ## Próximas ações
 
