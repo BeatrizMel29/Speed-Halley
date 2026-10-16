@@ -131,29 +131,36 @@ Realizar testes individuais antes de avançar para a integração dos componente
 
 ## Planejado
 
-- ____________________
+- Avançar nos testes de comunicação.
+- Utilizar Wi-Fi, MQTT e Node-RED.
+- Investigar dificuldades de integração.
+- Registrar os resultados dos testes.
 
 ## Concluído
 
-- ____________________
+- Desenvolvimento e utilização de código para testes de comunicação.
+- Registro visual de mensagens numéricas no Node-RED.
 
 ## Não concluído
 
-- ____________________
+- Confirmação completa da comunicação entre os dispositivos.
+- Integração dos componentes.
+- Definição definitiva da arquitetura da pista
 
 ## Problemas ou impedimentos
 
-- ____________________
+- Dificuldades relacionadas à integração dos componentes e à confirmação do funcionamento conjunto do sistema.
 
 ## Decisões técnicas da semana
 
-- ____________________
+Continuar os testes de comunicação e verificar o funcionamento dos dispositivos antes de avançar para a integração.
 
 ## Testes realizados
 
 | Teste | Resultado |
 |---|---|
-| ____________________ | ____________________ |
+|Testes de conexão Wi-Fi. | | deu certo|
+|Testes de comunicação envolvendo MQTT e Node-RED, com mensagens numéricas observadas no Node-RED. A origem das mensagens ainda precisa ser confirmada. | |deu certo|
 
 ## Próximas ações
 
